@@ -21,7 +21,7 @@ project_client = AIProjectClient(
 agent = project_client.agents.create_version(
     agent_name=os.environ["AGENT_NAME"],
     definition=PromptAgentDefinition(
-         model="<available-lower-cost-model>",
+         model="gpt-4.1-mini",
         instructions=instructions,
     ),
 )
