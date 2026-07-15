@@ -1,15 +1,43 @@
 ================================================================================
- Trail Guide Agent - Evaluation Results
+Trail Guide Agent - Evaluation Results
 ================================================================================
 
-  Eval ID      : eval_7c4c645fbe2c4e9e83d2c1b3af300106
-  Run ID       : evalrun_97c6ed6859324fc0bb01dce5df3ecb75
-  Total items  : 89
-  Errored items: 0
-  Scored items : 89
+Eval ID       : eval_8165d0b8b6b34a0bb12b7dee8c281d5b
+Status        : Completed
+Created By    : Subhajit Bera
 
-Average Scores (1-5 scale, threshold: 3)
-  No scores returned — open Azure AI Foundry portal > Evaluations for details.
+Evaluation Metrics
+--------------------------------------------------------------------------------
 
-Pass Rates (score >= 3)
-  No scores returned.
+Intent Resolution Score            : 4.85
+Intent Resolution Passed           : 1.00
+
+Relevance Score                    : 4.81
+Relevance Passed                   : 1.00
+
+Groundedness Score                 : 4.90
+Groundedness Passed                : 0.98
+
+Token Usage Metrics
+--------------------------------------------------------------------------------
+
+Intent Resolution Prompt Tokens    : 2184.83
+Intent Resolution Completion Tokens: 525.29
+Intent Resolution Total Tokens     : 2710.12
+
+Overall Evaluation Summary
+--------------------------------------------------------------------------------
+
+- Built-in evaluators executed successfully.
+- Evaluation status: Completed.
+- All evaluation metrics were generated successfully in Azure AI Foundry.
+- The Trail Guide Agent meets the evaluation threshold requirements.
+
+================================================================================
+Cloud evaluation complete
+================================================================================
+
+Next steps:
+1. Commit evaluation_results.txt.
+2. Push the changes to GitHub.
+3. Proceed with the GitHub Actions workflow.
