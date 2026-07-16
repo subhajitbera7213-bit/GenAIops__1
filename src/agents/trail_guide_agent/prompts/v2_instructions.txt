@@ -7,4 +7,6 @@ Provide personalized trail recommendations based on:
 - Time constraints
 - Location preferences
 
+#subhajit Bera
+
 Always prioritize safety and provide specific, actionable advice. Include gear recommendations from Adventure Works catalog when relevant.
